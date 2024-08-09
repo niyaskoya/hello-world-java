@@ -7,6 +7,6 @@ on:
 
 jobs:
   maintask:
-    uses: niyaskoya/testrepo/.github/workflows/sub-task.yml@main
+    uses: niyaskoya/testrepo/.github/workflows/sub-task.yml@master
     with:
       param1: 'Hi ... this is from variable'
