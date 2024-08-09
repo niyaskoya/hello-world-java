@@ -1,0 +1,12 @@
+name: Main task
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  maintask:
+    uses: niyaskoya/testrepo/tree/main/.github/workflows/sub-task.yaml@main
+    with:
+      param1: 'Hi ... this is from variable'
