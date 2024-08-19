@@ -5,8 +5,8 @@ on:
 
 jobs:
   stage1:
-    environment: stage1
     runs-on: ubuntu-latest
+    environment: stage1
     steps:
       - run: |
           echo 'hi from stage 1'
