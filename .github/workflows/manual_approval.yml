@@ -1,11 +1,11 @@
-  name: manula approval
+  name: manual approval
 
   on:
   workflow_dispatch:
 
   jobs:
     test-stage:
-    runs-on: ubuntu-latest
-    steps:
-      - run: |
-          echo "Hi"
+      runs-on: ubuntu-latest
+      steps:
+        - run: |
+            echo "Hi"
