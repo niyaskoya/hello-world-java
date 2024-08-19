@@ -5,6 +5,7 @@ on:
 
 jobs:
   stage1:
+    environment: stage1
     runs-on: ubuntu-latest
     steps:
       - run: |
