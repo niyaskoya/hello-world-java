@@ -1,12 +1,12 @@
-name: Main task
+# name: Main task
 
-on:
-  push:
-    branches:
-      - master
+# on:
+#   push:
+#     branches:
+#       - master
 
-jobs:
-  maintask:
-    uses: niyaskoya/testrepo/.github/workflows/sub-task.yml@main
-    with:
-      param1: 'Hi ... this is from variable'
+# jobs:
+#   maintask:
+#     uses: niyaskoya/testrepo/.github/workflows/sub-task.yml@main
+#     with:
+#       param1: 'Hi ... this is from variable'
